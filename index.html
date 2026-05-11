@@ -4,61 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Message for Shaymaa</title>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Great+Vibes&display=swap" rel="stylesheet">
     <style>
+        /* This sets the main background color */
         body {
-            background-color: #5D3A1A; /* Chocolate color */
-            color: #ffffff; /* White text */
-            font-family: 'Playfair Display', serif;
+            background-color: #fdfaf6; /* Soft cream for the general page */
             margin: 0;
             padding: 0;
             display: flex;
             justify-content: center;
-            line-height: 1.8;
+            align-items: center; /* Center horizontally and vertically */
+            min-height: 100vh; /* Fill the whole screen */
         }
-        .container {
+        /* This is the inner box with the chocolate background and the frame */
+        .framed-content {
+            background-color: #5D3A1A; /* Chocolate color inside */
             max-width: 500px;
             width: 90%;
-            padding: 60px 20px;
+            margin: 40px auto; /* Margin to ensure it's centered and has space */
+            padding: 40px;
+            border-radius: 15px; /* Rounded corners */
+            box-shadow: 0 0 0 10px #ff3333, /* The main solid red frame */
+                        0 0 20px rgba(0,0,0,0.2); /* A soft shadow for depth */
             text-align: center;
-            animation: fadeIn 3s;
+            animation: fadeIn 3s; /* Smooth entry */
         }
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(20px); }
             to { opacity: 1; transform: translateY(0); }
         }
+        /* Header style */
         h1 {
-            font-family: 'Dancing Script', cursive;
+            font-family: 'Dancing Script', cursive; /* Required Title Font */
             font-size: 2.8rem;
-            font-weight: 700;
-            color: #ff3333; /* Bold Red */
+            font-weight: 700; /* Bolded */
+            color: #ffffff; /* White title text */
             margin-bottom: 40px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            text-shadow: 2px 2px 5px #1e3d1a; /* Green text shadow */
         }
+        /* Body paragraph style */
         .letter-content {
+            font-family: 'Playfair Display', serif; /* Required Message Body Font */
             font-size: 1.15rem;
+            color: #ffffff; /* White message text */
             text-align: justify;
-            white-space: pre-line;
+            white-space: pre-line; /* Maintains paragraph spacing */
             padding: 10px;
-            text-shadow: 2px 2px 5px #1e3d1a; /* Deep Green shadow */
+            line-height: 1.8;
+            text-shadow: 2px 2px 5px #1e3d1a; /* Green text shadow */
         }
+        /* Heart style */
         .heart {
-            color: #ff3333;
+            color: #ff3333; /* Vibrant Red */
             font-size: 3rem;
             margin: 30px 0;
         }
+        /* Footer/Signature style */
         .footer {
             margin-top: 50px;
-            font-family: 'Dancing Script', cursive;
+            font-family: 'Great Vibes', cursive; /* Required Signature Font */
             font-size: 2.2rem;
-            font-weight: 700;
-            color: #ff3333;
+            font-weight: 400; /* Great Vibes doesn't usually need bolding */
+            color: #ffffff; /* White signature text */
+            text-shadow: 2px 2px 5px #1e3d1a; /* Green text shadow */
         }
     </style>
 </head>
 <body>
 
-<div class="container">
+<div class="framed-content">
     <h1>A Message for My Shaymaa</h1>
     
     <div class="letter-content">
