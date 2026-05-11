@@ -4,15 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Message for Shaymaa</title>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Great+Vibes&family=Pinyon+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Great+Vibes&family=Satisfy&display=swap" rel="stylesheet">
     <style>
         body {
-            /* Using a dark, textured background to match your images */
-            background-color: #1a1a1a;
-            background-image: url('https://images.unsplash.com/photo-1518199266791-5375a83190b7?q=80&w=2070&auto=format&fit=crop');
-            background-size: cover;
-            background-attachment: fixed;
-            background-position: center;
+            background-color: #1a1a1a; /* Dark outer background */
             margin: 0;
             padding: 0;
             display: flex;
@@ -21,13 +16,18 @@
             min-height: 100vh;
         }
         .framed-content {
-            background-color: rgba(93, 58, 26, 0.95); /* Chocolate with slight transparency */
+            /* This section now uses your requested heart image as the background */
+            background-image: linear-gradient(rgba(93, 58, 26, 0.7), rgba(93, 58, 26, 0.7)), 
+                              url('https://images.unsplash.com/photo-1518199266791-5375a83190b7?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+            
             max-width: 600px;
             width: 85%;
             margin: 50px auto;
             padding: 40px;
             border-radius: 20px;
-            /* This creates the solid red frame effect you asked for */
+            /* Solid red frame as requested */
             border: 10px solid #ff3333; 
             box-shadow: 0 10px 30px rgba(0,0,0,0.8);
             text-align: center;
@@ -42,37 +42,40 @@
             font-size: 3.2rem;
             color: #ffffff;
             margin-bottom: 30px;
-            text-shadow: 3px 3px 6px #2d5a27; /* Light Green Shadow */
+            /* Light Green Shadow */
+            text-shadow: 3px 3px 6px #2d5a27; 
         }
         .letter-content {
-            font-family: 'Pinyon Script', cursive;
-            font-size: 1.8rem;
+            /* New font: Satisfy */
+            font-family: 'Satisfy', cursive; 
+            font-size: 1.6rem;
             color: #ffffff;
             text-align: center;
             white-space: pre-line;
             padding: 10px;
-            line-height: 1.4;
-            text-shadow: 2px 2px 4px #2d5a27; /* Light Green Shadow */
+            line-height: 1.6;
+            /* Stronger Green Shadow to pop against the image */
+            text-shadow: 2px 2px 8px #1e3d1a, 0px 0px 10px #2d5a27;
         }
-        .heart {
+        .heart-icon {
             color: #ff3333;
             font-size: 3.5rem;
             margin: 25px 0;
-            filter: drop-shadow(0 0 10px rgba(255, 51, 51, 0.5));
+            filter: drop-shadow(0 0 10px rgba(255, 51, 51, 0.8));
         }
         .footer {
             margin-top: 40px;
             font-family: 'Great Vibes', cursive;
             font-size: 2.8rem;
             color: #ffffff;
-            text-shadow: 3px 3px 6px #2d5a27; /* Light Green Shadow */
+            text-shadow: 3px 3px 6px #2d5a27;
         }
     </style>
 </head>
 <body>
 
 <div class="framed-content">
-    <h1>A Message for My Shaymaa</h1>
+    <h1>To the Woman I Love, the One My Heart Chose For Me To live With, SHAYMAA❤️</h1>
     
     <div class="letter-content">
 Happy Birthday to the most beautiful soul that has ever walked into my life. Honestly, I have been thinking about how to write this, and no matter how much I try, I still feel like words are not enough to explain how much you mean to me but today, I will try insha Allah, because you deserve to hear it all.
@@ -98,7 +101,7 @@ You are not just someone I love; you are someone I cherish deeply. You are someo
 You are my happiness. You are my peace. You are my answered prayer. You are my person. No matter where life takes us, I want you to always remember that you are deeply loved.
     </div>
 
-    <div class="heart">❤</div>
+    <div class="heart-icon">❤</div>
     
     <div class="footer">
         Yours Always, Mohammad
