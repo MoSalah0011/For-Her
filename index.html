@@ -4,69 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A Message for Shaymaa</title>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Great+Vibes&family=Pinyon+Script&display=swap" rel="stylesheet">
     <style>
-        /* This sets the main background color */
         body {
-            background-color: #fdfaf6; /* Soft cream for the general page */
+            /* Using a dark, textured background to match your images */
+            background-color: #1a1a1a;
+            background-image: url('https://images.unsplash.com/photo-1518199266791-5375a83190b7?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
             margin: 0;
             padding: 0;
             display: flex;
             justify-content: center;
-            align-items: center; /* Center horizontally and vertically */
-            min-height: 100vh; /* Fill the whole screen */
+            align-items: center;
+            min-height: 100vh;
         }
-        /* This is the inner box with the chocolate background and the frame */
         .framed-content {
-            background-color: #5D3A1A; /* Chocolate color inside */
-            max-width: 500px;
-            width: 90%;
-            margin: 40px auto; /* Margin to ensure it's centered and has space */
+            background-color: rgba(93, 58, 26, 0.95); /* Chocolate with slight transparency */
+            max-width: 600px;
+            width: 85%;
+            margin: 50px auto;
             padding: 40px;
-            border-radius: 15px; /* Rounded corners */
-            box-shadow: 0 0 0 10px #ff3333, /* The main solid red frame */
-                        0 0 20px rgba(0,0,0,0.2); /* A soft shadow for depth */
+            border-radius: 20px;
+            /* This creates the solid red frame effect you asked for */
+            border: 10px solid #ff3333; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.8);
             text-align: center;
-            animation: fadeIn 3s; /* Smooth entry */
+            animation: fadeIn 3s;
         }
         @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
+            from { opacity: 0; transform: translateY(30px); }
             to { opacity: 1; transform: translateY(0); }
         }
-        /* Header style */
         h1 {
-            font-family: 'Dancing Script', cursive; /* Required Title Font */
-            font-size: 2.8rem;
-            font-weight: 700; /* Bolded */
-            color: #ffffff; /* White title text */
-            margin-bottom: 40px;
-            text-shadow: 2px 2px 5px #1e3d1a; /* Green text shadow */
+            font-family: 'Dancing Script', cursive;
+            font-size: 3.2rem;
+            color: #ffffff;
+            margin-bottom: 30px;
+            text-shadow: 3px 3px 6px #2d5a27; /* Light Green Shadow */
         }
-        /* Body paragraph style */
         .letter-content {
-            font-family: 'Playfair Display', serif; /* Required Message Body Font */
-            font-size: 1.15rem;
-            color: #ffffff; /* White message text */
-            text-align: justify;
-            white-space: pre-line; /* Maintains paragraph spacing */
+            font-family: 'Pinyon Script', cursive;
+            font-size: 1.8rem;
+            color: #ffffff;
+            text-align: center;
+            white-space: pre-line;
             padding: 10px;
-            line-height: 1.8;
-            text-shadow: 2px 2px 5px #1e3d1a; /* Green text shadow */
+            line-height: 1.4;
+            text-shadow: 2px 2px 4px #2d5a27; /* Light Green Shadow */
         }
-        /* Heart style */
         .heart {
-            color: #ff3333; /* Vibrant Red */
-            font-size: 3rem;
-            margin: 30px 0;
+            color: #ff3333;
+            font-size: 3.5rem;
+            margin: 25px 0;
+            filter: drop-shadow(0 0 10px rgba(255, 51, 51, 0.5));
         }
-        /* Footer/Signature style */
         .footer {
-            margin-top: 50px;
-            font-family: 'Great Vibes', cursive; /* Required Signature Font */
-            font-size: 2.2rem;
-            font-weight: 400; /* Great Vibes doesn't usually need bolding */
-            color: #ffffff; /* White signature text */
-            text-shadow: 2px 2px 5px #1e3d1a; /* Green text shadow */
+            margin-top: 40px;
+            font-family: 'Great Vibes', cursive;
+            font-size: 2.8rem;
+            color: #ffffff;
+            text-shadow: 3px 3px 6px #2d5a27; /* Light Green Shadow */
         }
     </style>
 </head>
